@@ -1,0 +1,42 @@
+# Site settings
+description: HomeCloud-Lab of 洛桑扎巴 | Tsong khapa
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://home-lab.11ten.net" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Tsong khapa
+user_description: Home-Lab 
+user_title: Tsong khapa's Home-Lab Learning Records
+email: ztd811@yahoo.com
+twitter_username: ztd811
+github_username:  mba811
+gplus_username:  
+disqus_username: 
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
